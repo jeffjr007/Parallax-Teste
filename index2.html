@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Cordel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Sriracha', cursive;
+            height: 100%;
+        }
+
+        .parallax {
+            min-height: 100vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+      
+        .parallax1 {
+            background-image: url('/imagens/background001.jpg')
+        }
+
+        .parallax2 {
+            background-image: url('/imagens/background002.jpg')
+        }
+
+      
+        .fixed-content {
+            position: absolute;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            max-width: 80%;
+        }
+
+        h1 {
+            font-family: 'Passion One', cursive;
+            font-size: 36px;
+            margin: 0;
+        }
+
+        p {
+            margin: 15px 0;
+            line-height: 1.5;
+        }
+
+        .poem-section {
+            font-family: 'Sriracha', cursive;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parallax parallax1">
+        <div class="fixed-content">
+            <h1>Cordel Moderno</h1>
+            <p>Por <strong>Mestre Duarte</strong></p>
+            <div class="poem-section">
+                <p>Estou ficando cansado<br>
+                Do tal tecnologia<br>
+                Só sei falar no e-mail<br>
+                Mensagem curta e fria<br>
+                Twitter e Facebook<br>
+                Antes que eu caduque<br>
+                Vou dizer tudo em poesia.</p>
+
+                <p>Não é mais como era antes<br>
+                É tudo abreviado<br>
+                “Você” só tem duas letras<br>
+                O “O” tem o “0” riscado<br>
+                Pra declarar o amor<br>
+                Basta botar uma flor<br>
+                E um coração desenhado.</p>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="parallax parallax2">
+        <div class="fixed-content">
+            <h1>Mais Poesia</h1>
+            <p>Por <strong>Mestre Duarte</strong></p>
+            <div class="poem-section">
+                <p>Arroba agora não pesa<br>
+                É parte de um endereço<br>
+                Ponto final nem se usa<br>
+                Ou vai no começo<br>
+                Agora é .com<br>
+                Se vale muito bom<br>
+                Ele vem até com preço.</p>
+
+                <p>Pro falar a linguagem<br>
+                O emoticon é um traço<br>
+                Tem símbolo pra tudo<br>
+                E também pro abraço<br>
+                Com tantos desenhinhos<br>
+                Só faltam os carinhos<br>
+                De um beijo que te faço.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
